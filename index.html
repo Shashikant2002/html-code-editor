@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="editor">
+        <div class="output">
+            <iframe id="output"></iframe>
+
+        </div>
+        <div class="editors">
+            <div class="html-editor">
+                <textarea id="html-code" placeholder="Type HTML"></textarea>
+                <p onclick="htmlcopyed()" class="copy" id="html-button">Copy Now</p>
+            </div>
+
+            <div class="css-editor">
+                <textarea id="css-code" placeholder="Type CSS"></textarea>
+                <p onclick="csscopyed()" class="copy" id="css-button">Copy Now</p>
+            </div>
+
+            <div class="js-editor">
+                <textarea id="js-code" placeholder="Type JavaScript"></textarea>
+                <p onclick="jscopyed()" class="copy" id="js-button">Copy Now</p>
+            </div>
+           
+           
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
